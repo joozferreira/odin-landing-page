@@ -101,6 +101,7 @@ img {
 .info{
   display: flex;
   flex-direction: column;
+  margin-bottom: 25px;
 }
 
 .info h1 {
@@ -134,4 +135,76 @@ img {
 .source {
   font-size: 8px;
   margin: 10px 0px 25px 0px;
+}
+
+.inspirational {
+  background: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 200px;
+}
+
+.inspirational .insp-quote{
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1F2937;
+  text-align: start;
+}
+
+.inspirational .author {
+  align-self: flex-end;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.call {
+  display: flex;
+  padding: 35px 200px;
+}
+
+.call-sect {
+  flex: 1;
+  border-radius: 4px;
+  justify-content: space-between;
+  padding: 30px 90px;
+  display: flex;
+  background-color: #3882F6;
+}
+
+.top-line {
+  font-weight: bold;
+  color: #fff;
+}
+
+.bottom-line {
+  margin-top: 10px;
+  color: #fff;
+}
+
+.alternative {
+  padding: 12px;
+  border: 1px solid;
+  border-color: #fff;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  background-color: #3882F6;
+  width: 150px;
+  border-radius: 8px;
+}
+
+.footer {
+  background: #1F2937;
+  color: #fff;
+  text-align: center;
+  padding: 35px 0px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #f9fAf8;
 }
