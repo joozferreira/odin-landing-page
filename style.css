@@ -11,9 +11,9 @@ body {
 .navbar {
   background: #1F2937;
   color: #f9fAf8;
-  padding: 15px;
+  padding: 15px 200px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -42,8 +42,8 @@ ul {
 .usp {
   display: flex;
   background: #1F2937;
-  padding: 15px;
-  justify-content: space-evenly;
+  padding:15px 200px;
+  justify-content: space-between;
   align-items: center;
   min-height: 400px;
   gap: 30px;
@@ -84,6 +84,7 @@ ul {
 
 img {
   max-width: 400px;
+  border-radius: 8px;
 }
 
 .image {
@@ -97,11 +98,21 @@ img {
   color:  #E5E7EB;
 }
 
-.info {
+.info{
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+}
+
+.info h1 {
+  text-align: center;
+  margin: 25px 0px;
+}
+
+.features {
+  display: flex;
   align-items: flex-start;
-  margin: 75px 150px;
+  justify-content: space-between;
+  margin: 0px 200px;
 }
 
 .icon {
@@ -122,4 +133,5 @@ img {
 
 .source {
   font-size: 8px;
+  margin: 10px 0px 25px 0px;
 }
